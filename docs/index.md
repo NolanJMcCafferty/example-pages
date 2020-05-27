@@ -1,4 +1,4 @@
-This is the index file for the site
+This is the index file for the site.
 
 
 
