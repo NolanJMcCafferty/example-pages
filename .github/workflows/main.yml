@@ -13,7 +13,7 @@ jobs:
       - name: try
         working-directory: docs
         run: |
-          ls -la
+          find . -name '*.md' -exec proselint {} +
           echo help
         
   
