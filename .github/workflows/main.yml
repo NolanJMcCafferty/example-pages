@@ -11,6 +11,6 @@ jobs:
       - name: try
         run: |
           ls
-          find . -name '*.md' -exec proselint {} +
+          echo help
   
   
