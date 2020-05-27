@@ -1,4 +1,4 @@
-## I added a big heading
+## I added a big heading.
 
 This is the index file for the site.
 
