@@ -10,11 +10,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
     
-      - name: try
-        run: |
-          apt install -y python3-proselint
-          find . -name '*.md' -exec proselint {} +
-          echo help
+      - uses: NolanJMcCafferty/proselint-action@v14
         
   
   
