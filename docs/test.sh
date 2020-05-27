@@ -1,13 +1,6 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
-asddasf
-
-dkjd
-d
-
-
-s
-
-s
-s
-
+jon(){
+	eco -3
+}
+(( area = 3.14*r*r ))
