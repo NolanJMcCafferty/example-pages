@@ -1,3 +1,5 @@
 name: shellcheck
-  on: [push]
-  uses: ludeeus/action-shellcheck@0.1.0
+
+on: [push]
+  
+uses = ludeeus/action-shellcheck@0.1.0
