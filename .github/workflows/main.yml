@@ -9,9 +9,10 @@ jobs:
     
     steps:
       - name: try
-        working-directory: ${{ github.workspace }}
+        working-directory: docs
         run: |
           ls -la
           echo help
+        
   
   
