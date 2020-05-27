@@ -11,4 +11,4 @@ jobs:
   proselint:
     runs-on: ubuntu-latest
     steps:
-      - uses: NolanJMcCafferty/proselint-action@v9
+      - uses: NolanJMcCafferty/proselint-action@v10
