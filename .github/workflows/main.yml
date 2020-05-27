@@ -1,15 +1,16 @@
+name: proselint
 on: [push]
 
 jobs: 
-  shellcheck:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: ludeeus/action-shellcheck@0.1.0
-  
-  proselint:
+
+  build:
+    name: Build
     runs-on: ubuntu-latest
     
     steps:
-      - run: find . -name '*.md' -exec proselint {} +
+      - name: try
+        run: |
+          ls
+          find . -name '*.md' -exec proselint {} +
   
   
