@@ -10,7 +10,7 @@ jobs:
     steps:
       - name: try
         run: |
-          ls
+          ls ./...
           echo help
   
   
