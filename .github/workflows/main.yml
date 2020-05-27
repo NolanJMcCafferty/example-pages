@@ -10,4 +10,6 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
-      - uses: NolanJMcCafferty/proselint-action@v15
+      - run: find . -name '*.md' -exec proselint {} +
+  
+  
