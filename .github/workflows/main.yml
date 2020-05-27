@@ -10,5 +10,7 @@ jobs:
   
   proselint:
     runs-on: ubuntu-latest
+    
     steps:
+      - working-directory: ./
       - uses: NolanJMcCafferty/proselint-action@v12
