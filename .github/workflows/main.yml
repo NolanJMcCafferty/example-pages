@@ -10,9 +10,11 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       
-      - uses: ludeeus/action-shellcheck@v2
+      - name: shellcheck 
+        uses: ludeeus/action-shellcheck@v2
     
-      - uses: NolanJMcCafferty/proselint-action@v15
+      - name: proselint
+        uses: NolanJMcCafferty/proselint-action@v15
         
   
   
